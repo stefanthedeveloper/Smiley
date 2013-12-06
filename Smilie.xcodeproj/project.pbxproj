@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3D7145D18275C5600B12929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D7145C18275C5600B12929 /* Foundation.framework */; };
+		D3D7145F18275C5600B12929 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D7145E18275C5600B12929 /* CoreGraphics.framework */; };
+		D3D7146118275C5600B12929 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D7146018275C5600B12929 /* UIKit.framework */; };
+		D3D7146718275C5600B12929 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3D7146518275C5600B12929 /* InfoPlist.strings */; };
+		D3D7146918275C5600B12929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7146818275C5600B12929 /* main.m */; };
+		D3D7146D18275C5600B12929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7146C18275C5600B12929 /* AppDelegate.m */; };
+		D3D7146F18275C5600B12929 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D7146E18275C5600B12929 /* Images.xcassets */; };
+		D3D7147618275C5600B12929 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D7147518275C5600B12929 /* XCTest.framework */; };
+		D3D7147718275C5600B12929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D7145C18275C5600B12929 /* Foundation.framework */; };
+		D3D7147818275C5600B12929 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D7146018275C5600B12929 /* UIKit.framework */; };
+		D3D7148018275C5600B12929 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3D7147E18275C5600B12929 /* InfoPlist.strings */; };
+		D3D7148218275C5600B12929 /* SmileyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7148118275C5600B12929 /* SmileyTests.m */; };
+		D3D7149D18275C9200B12929 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7148B18275C9200B12929 /* AppIcon29x29.png */; };
+		D3D7149E18275C9200B12929 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7148C18275C9200B12929 /* AppIcon29x29@2x.png */; };
+		D3D7149F18275C9200B12929 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7148D18275C9200B12929 /* AppIcon40x40.png */; };
+		D3D714A018275C9200B12929 /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7148E18275C9200B12929 /* AppIcon40x40@2x.png */; };
+		D3D714A118275C9200B12929 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7148F18275C9200B12929 /* AppIcon60x60.png */; };
+		D3D714A218275C9200B12929 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149018275C9200B12929 /* AppIcon60x60@2x.png */; };
+		D3D714A318275C9200B12929 /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149118275C9200B12929 /* AppIcon76x76.png */; };
+		D3D714A418275C9200B12929 /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149218275C9200B12929 /* AppIcon76x76@2x.png */; };
+		D3D714A518275C9200B12929 /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149318275C9200B12929 /* Click.mp3 */; };
+		D3D714A618275C9200B12929 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149418275C9200B12929 /* Default-568h@2x.png */; };
+		D3D714A718275C9200B12929 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149518275C9200B12929 /* Default@2x.png */; };
+		D3D714A818275C9200B12929 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149618275C9200B12929 /* hit.mp3 */; };
+		D3D714A918275C9200B12929 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149718275C9200B12929 /* Icon-72.png */; };
+		D3D714AA18275C9200B12929 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149818275C9200B12929 /* Icon-72@2x.png */; };
+		D3D714AB18275C9200B12929 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149918275C9200B12929 /* Icon-Small-50.png */; };
+		D3D714AC18275C9200B12929 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149A18275C9200B12929 /* Icon-Small-50@2x.png */; };
+		D3D714AD18275C9200B12929 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149B18275C9200B12929 /* iTunesArtwork.png */; };
+		D3D714AE18275C9200B12929 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7149C18275C9200B12929 /* iTunesArtwork@2x.png */; };
+		D3D714B218275CD300B12929 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D714AF18275CD300B12929 /* Storyboard.storyboard */; };
+		D3D714B318275CD300B12929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D714B118275CD300B12929 /* ViewController.m */; };
+		D3D714C418275CE800B12929 /* Face1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714B418275CE800B12929 /* Face1.png */; };
+		D3D714C518275CE800B12929 /* Face1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714B518275CE800B12929 /* Face1@2x.png */; };
+		D3D714C618275CE800B12929 /* Face2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714B618275CE800B12929 /* Face2.png */; };
+		D3D714C718275CE800B12929 /* Face2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714B718275CE800B12929 /* Face2@2x.png */; };
+		D3D714C818275CE800B12929 /* Face3.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714B818275CE800B12929 /* Face3.png */; };
+		D3D714C918275CE800B12929 /* Face3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714B918275CE800B12929 /* Face3@2x.png */; };
+		D3D714CA18275CE800B12929 /* Face4.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714BA18275CE800B12929 /* Face4.png */; };
+		D3D714CB18275CE800B12929 /* Face4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714BB18275CE800B12929 /* Face4@2x.png */; };
+		D3D714CC18275CE800B12929 /* Face5.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714BC18275CE800B12929 /* Face5.png */; };
+		D3D714CD18275CE800B12929 /* Face5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714BD18275CE800B12929 /* Face5@2x.png */; };
+		D3D714CE18275CE800B12929 /* ipadbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714BE18275CE800B12929 /* ipadbackground.png */; };
+		D3D714CF18275CE800B12929 /* ipadbackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714BF18275CE800B12929 /* ipadbackground@2x.png */; };
+		D3D714D018275CE800B12929 /* iphone4background.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714C018275CE800B12929 /* iphone4background.png */; };
+		D3D714D118275CE800B12929 /* iphone4background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714C118275CE800B12929 /* iphone4background@2x.png */; };
+		D3D714D218275CE800B12929 /* iphone5 background.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714C218275CE800B12929 /* iphone5 background.png */; };
+		D3D714D318275CE800B12929 /* iphone5 background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D714C318275CE800B12929 /* iphone5 background@2x.png */; };
+		D3D714D518275CFD00B12929 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D714D418275CFD00B12929 /* Main_iPhone.storyboard */; };
+		D3D714D718275D8C00B12929 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D714D618275D8C00B12929 /* AudioToolbox.framework */; };
+		D3D714D918275D9100B12929 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D714D818275D9100B12929 /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3D7147918275C5600B12929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D7145118275C5600B12929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D7145818275C5600B12929;
+			remoteInfo = Smiley;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3D7145918275C5600B12929 /* Smilie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smilie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D7145C18275C5600B12929 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3D7145E18275C5600B12929 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3D7146018275C5600B12929 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3D7146418275C5600B12929 /* Smilie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smilie-Info.plist"; sourceTree = "<group>"; };
+		D3D7146618275C5600B12929 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3D7146818275C5600B12929 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3D7146A18275C5600B12929 /* Smilie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smilie-Prefix.pch"; sourceTree = "<group>"; };
+		D3D7146B18275C5600B12929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3D7146C18275C5600B12929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3D7146E18275C5600B12929 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3D7147418275C5600B12929 /* SmilieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmilieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D7147518275C5600B12929 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D3D7147D18275C5600B12929 /* SmilieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmilieTests-Info.plist"; sourceTree = "<group>"; };
+		D3D7147F18275C5600B12929 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3D7148118275C5600B12929 /* SmileyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileyTests.m; sourceTree = "<group>"; };
+		D3D7148B18275C9200B12929 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		D3D7148C18275C9200B12929 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		D3D7148D18275C9200B12929 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
+		D3D7148E18275C9200B12929 /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		D3D7148F18275C9200B12929 /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
+		D3D7149018275C9200B12929 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		D3D7149118275C9200B12929 /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon76x76.png; sourceTree = "<group>"; };
+		D3D7149218275C9200B12929 /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x.png"; sourceTree = "<group>"; };
+		D3D7149318275C9200B12929 /* Click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click.mp3; sourceTree = "<group>"; };
+		D3D7149418275C9200B12929 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D3D7149518275C9200B12929 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D3D7149618275C9200B12929 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		D3D7149718275C9200B12929 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		D3D7149818275C9200B12929 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		D3D7149918275C9200B12929 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		D3D7149A18275C9200B12929 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		D3D7149B18275C9200B12929 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		D3D7149C18275C9200B12929 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		D3D714AF18275CD300B12929 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D3D714B018275CD300B12929 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3D714B118275CD300B12929 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3D714B418275CE800B12929 /* Face1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Face1.png; sourceTree = "<group>"; };
+		D3D714B518275CE800B12929 /* Face1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face1@2x.png"; sourceTree = "<group>"; };
+		D3D714B618275CE800B12929 /* Face2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Face2.png; sourceTree = "<group>"; };
+		D3D714B718275CE800B12929 /* Face2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face2@2x.png"; sourceTree = "<group>"; };
+		D3D714B818275CE800B12929 /* Face3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Face3.png; sourceTree = "<group>"; };
+		D3D714B918275CE800B12929 /* Face3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face3@2x.png"; sourceTree = "<group>"; };
+		D3D714BA18275CE800B12929 /* Face4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Face4.png; sourceTree = "<group>"; };
+		D3D714BB18275CE800B12929 /* Face4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face4@2x.png"; sourceTree = "<group>"; };
+		D3D714BC18275CE800B12929 /* Face5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Face5.png; sourceTree = "<group>"; };
+		D3D714BD18275CE800B12929 /* Face5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Face5@2x.png"; sourceTree = "<group>"; };
+		D3D714BE18275CE800B12929 /* ipadbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadbackground.png; sourceTree = "<group>"; };
+		D3D714BF18275CE800B12929 /* ipadbackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadbackground@2x.png"; sourceTree = "<group>"; };
+		D3D714C018275CE800B12929 /* iphone4background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone4background.png; sourceTree = "<group>"; };
+		D3D714C118275CE800B12929 /* iphone4background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone4background@2x.png"; sourceTree = "<group>"; };
+		D3D714C218275CE800B12929 /* iphone5 background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone5 background.png"; sourceTree = "<group>"; };
+		D3D714C318275CE800B12929 /* iphone5 background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone5 background@2x.png"; sourceTree = "<group>"; };
+		D3D714D418275CFD00B12929 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D3D714D618275D8C00B12929 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D3D714D818275D9100B12929 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D7145618275C5600B12929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D714D918275D9100B12929 /* iAd.framework in Frameworks */,
+				D3D714D718275D8C00B12929 /* AudioToolbox.framework in Frameworks */,
+				D3D7145F18275C5600B12929 /* CoreGraphics.framework in Frameworks */,
+				D3D7146118275C5600B12929 /* UIKit.framework in Frameworks */,
+				D3D7145D18275C5600B12929 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D7147118275C5600B12929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D7147618275C5600B12929 /* XCTest.framework in Frameworks */,
+				D3D7147818275C5600B12929 /* UIKit.framework in Frameworks */,
+				D3D7147718275C5600B12929 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3D7145018275C5600B12929 = {
+			isa = PBXGroup;
+			children = (
+				D3D7146218275C5600B12929 /* Smiley */,
+				D3D7147B18275C5600B12929 /* SmileyTests */,
+				D3D7145B18275C5600B12929 /* Frameworks */,
+				D3D7145A18275C5600B12929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D7145A18275C5600B12929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D7145918275C5600B12929 /* Smilie.app */,
+				D3D7147418275C5600B12929 /* SmilieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D7145B18275C5600B12929 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3D714D818275D9100B12929 /* iAd.framework */,
+				D3D714D618275D8C00B12929 /* AudioToolbox.framework */,
+				D3D7145C18275C5600B12929 /* Foundation.framework */,
+				D3D7145E18275C5600B12929 /* CoreGraphics.framework */,
+				D3D7146018275C5600B12929 /* UIKit.framework */,
+				D3D7147518275C5600B12929 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D7146218275C5600B12929 /* Smiley */ = {
+			isa = PBXGroup;
+			children = (
+				D3D7146B18275C5600B12929 /* AppDelegate.h */,
+				D3D7146C18275C5600B12929 /* AppDelegate.m */,
+				D3D714D418275CFD00B12929 /* Main_iPhone.storyboard */,
+				D3D714AF18275CD300B12929 /* Storyboard.storyboard */,
+				D3D714B018275CD300B12929 /* ViewController.h */,
+				D3D714B118275CD300B12929 /* ViewController.m */,
+				D3D7146E18275C5600B12929 /* Images.xcassets */,
+				D3D7146318275C5600B12929 /* Supporting Files */,
+			);
+			path = Smiley;
+			sourceTree = "<group>";
+		};
+		D3D7146318275C5600B12929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3D714B418275CE800B12929 /* Face1.png */,
+				D3D714B518275CE800B12929 /* Face1@2x.png */,
+				D3D714B618275CE800B12929 /* Face2.png */,
+				D3D714B718275CE800B12929 /* Face2@2x.png */,
+				D3D714B818275CE800B12929 /* Face3.png */,
+				D3D714B918275CE800B12929 /* Face3@2x.png */,
+				D3D714BA18275CE800B12929 /* Face4.png */,
+				D3D714BB18275CE800B12929 /* Face4@2x.png */,
+				D3D714BC18275CE800B12929 /* Face5.png */,
+				D3D714BD18275CE800B12929 /* Face5@2x.png */,
+				D3D714BE18275CE800B12929 /* ipadbackground.png */,
+				D3D714BF18275CE800B12929 /* ipadbackground@2x.png */,
+				D3D714C018275CE800B12929 /* iphone4background.png */,
+				D3D714C118275CE800B12929 /* iphone4background@2x.png */,
+				D3D714C218275CE800B12929 /* iphone5 background.png */,
+				D3D714C318275CE800B12929 /* iphone5 background@2x.png */,
+				D3D7148B18275C9200B12929 /* AppIcon29x29.png */,
+				D3D7148C18275C9200B12929 /* AppIcon29x29@2x.png */,
+				D3D7148D18275C9200B12929 /* AppIcon40x40.png */,
+				D3D7148E18275C9200B12929 /* AppIcon40x40@2x.png */,
+				D3D7148F18275C9200B12929 /* AppIcon60x60.png */,
+				D3D7149018275C9200B12929 /* AppIcon60x60@2x.png */,
+				D3D7149118275C9200B12929 /* AppIcon76x76.png */,
+				D3D7149218275C9200B12929 /* AppIcon76x76@2x.png */,
+				D3D7149318275C9200B12929 /* Click.mp3 */,
+				D3D7149418275C9200B12929 /* Default-568h@2x.png */,
+				D3D7149518275C9200B12929 /* Default@2x.png */,
+				D3D7149618275C9200B12929 /* hit.mp3 */,
+				D3D7149718275C9200B12929 /* Icon-72.png */,
+				D3D7149818275C9200B12929 /* Icon-72@2x.png */,
+				D3D7149918275C9200B12929 /* Icon-Small-50.png */,
+				D3D7149A18275C9200B12929 /* Icon-Small-50@2x.png */,
+				D3D7149B18275C9200B12929 /* iTunesArtwork.png */,
+				D3D7149C18275C9200B12929 /* iTunesArtwork@2x.png */,
+				D3D7146418275C5600B12929 /* Smilie-Info.plist */,
+				D3D7146518275C5600B12929 /* InfoPlist.strings */,
+				D3D7146818275C5600B12929 /* main.m */,
+				D3D7146A18275C5600B12929 /* Smilie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3D7147B18275C5600B12929 /* SmileyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D7148118275C5600B12929 /* SmileyTests.m */,
+				D3D7147C18275C5600B12929 /* Supporting Files */,
+			);
+			path = SmileyTests;
+			sourceTree = "<group>";
+		};
+		D3D7147C18275C5600B12929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3D7147D18275C5600B12929 /* SmilieTests-Info.plist */,
+				D3D7147E18275C5600B12929 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D7145818275C5600B12929 /* Smilie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D7148518275C5600B12929 /* Build configuration list for PBXNativeTarget "Smilie" */;
+			buildPhases = (
+				D3D7145518275C5600B12929 /* Sources */,
+				D3D7145618275C5600B12929 /* Frameworks */,
+				D3D7145718275C5600B12929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smilie;
+			productName = Smiley;
+			productReference = D3D7145918275C5600B12929 /* Smilie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3D7147318275C5600B12929 /* SmilieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D7148818275C5600B12929 /* Build configuration list for PBXNativeTarget "SmilieTests" */;
+			buildPhases = (
+				D3D7147018275C5600B12929 /* Sources */,
+				D3D7147118275C5600B12929 /* Frameworks */,
+				D3D7147218275C5600B12929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D7147A18275C5600B12929 /* PBXTargetDependency */,
+			);
+			name = SmilieTests;
+			productName = SmileyTests;
+			productReference = D3D7147418275C5600B12929 /* SmilieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D7145118275C5600B12929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stefan Studios";
+				TargetAttributes = {
+					D3D7145818275C5600B12929 = {
+						DevelopmentTeam = V8FVQ5687W;
+					};
+					D3D7147318275C5600B12929 = {
+						TestTargetID = D3D7145818275C5600B12929;
+					};
+				};
+			};
+			buildConfigurationList = D3D7145418275C5600B12929 /* Build configuration list for PBXProject "Smilie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3D7145018275C5600B12929;
+			productRefGroup = D3D7145A18275C5600B12929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D7145818275C5600B12929 /* Smilie */,
+				D3D7147318275C5600B12929 /* SmilieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D7145718275C5600B12929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D714AC18275C9200B12929 /* Icon-Small-50@2x.png in Resources */,
+				D3D714A818275C9200B12929 /* hit.mp3 in Resources */,
+				D3D714CD18275CE800B12929 /* Face5@2x.png in Resources */,
+				D3D714CE18275CE800B12929 /* ipadbackground.png in Resources */,
+				D3D714A018275C9200B12929 /* AppIcon40x40@2x.png in Resources */,
+				D3D7149E18275C9200B12929 /* AppIcon29x29@2x.png in Resources */,
+				D3D714A418275C9200B12929 /* AppIcon76x76@2x.png in Resources */,
+				D3D714B218275CD300B12929 /* Storyboard.storyboard in Resources */,
+				D3D714C818275CE800B12929 /* Face3.png in Resources */,
+				D3D714D018275CE800B12929 /* iphone4background.png in Resources */,
+				D3D714C418275CE800B12929 /* Face1.png in Resources */,
+				D3D714A118275C9200B12929 /* AppIcon60x60.png in Resources */,
+				D3D714A718275C9200B12929 /* Default@2x.png in Resources */,
+				D3D714A518275C9200B12929 /* Click.mp3 in Resources */,
+				D3D714D518275CFD00B12929 /* Main_iPhone.storyboard in Resources */,
+				D3D714A618275C9200B12929 /* Default-568h@2x.png in Resources */,
+				D3D714AD18275C9200B12929 /* iTunesArtwork.png in Resources */,
+				D3D714A318275C9200B12929 /* AppIcon76x76.png in Resources */,
+				D3D714C618275CE800B12929 /* Face2.png in Resources */,
+				D3D714AE18275C9200B12929 /* iTunesArtwork@2x.png in Resources */,
+				D3D7146718275C5600B12929 /* InfoPlist.strings in Resources */,
+				D3D714AA18275C9200B12929 /* Icon-72@2x.png in Resources */,
+				D3D714D218275CE800B12929 /* iphone5 background.png in Resources */,
+				D3D714AB18275C9200B12929 /* Icon-Small-50.png in Resources */,
+				D3D714D318275CE800B12929 /* iphone5 background@2x.png in Resources */,
+				D3D7149F18275C9200B12929 /* AppIcon40x40.png in Resources */,
+				D3D714A918275C9200B12929 /* Icon-72.png in Resources */,
+				D3D714C918275CE800B12929 /* Face3@2x.png in Resources */,
+				D3D714CC18275CE800B12929 /* Face5.png in Resources */,
+				D3D714CB18275CE800B12929 /* Face4@2x.png in Resources */,
+				D3D7146F18275C5600B12929 /* Images.xcassets in Resources */,
+				D3D714C518275CE800B12929 /* Face1@2x.png in Resources */,
+				D3D714D118275CE800B12929 /* iphone4background@2x.png in Resources */,
+				D3D714A218275C9200B12929 /* AppIcon60x60@2x.png in Resources */,
+				D3D714CF18275CE800B12929 /* ipadbackground@2x.png in Resources */,
+				D3D714C718275CE800B12929 /* Face2@2x.png in Resources */,
+				D3D7149D18275C9200B12929 /* AppIcon29x29.png in Resources */,
+				D3D714CA18275CE800B12929 /* Face4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D7147218275C5600B12929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D7148018275C5600B12929 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D7145518275C5600B12929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D714B318275CD300B12929 /* ViewController.m in Sources */,
+				D3D7146D18275C5600B12929 /* AppDelegate.m in Sources */,
+				D3D7146918275C5600B12929 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D7147018275C5600B12929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D7148218275C5600B12929 /* SmileyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3D7147A18275C5600B12929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D7145818275C5600B12929 /* Smilie */;
+			targetProxy = D3D7147918275C5600B12929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3D7146518275C5600B12929 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D7146618275C5600B12929 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3D7147E18275C5600B12929 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D7147F18275C5600B12929 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3D7148318275C5600B12929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3D7148418275C5600B12929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D7148618275C5600B12929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smiley/Smilie-Prefix.pch";
+				INFOPLIST_FILE = "Smiley/Smilie-Info.plist";
+				PRODUCT_NAME = Smilie;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3D7148718275C5600B12929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smiley/Smilie-Prefix.pch";
+				INFOPLIST_FILE = "Smiley/Smilie-Info.plist";
+				PRODUCT_NAME = Smilie;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D3D7148918275C5600B12929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smiley.app/Smiley";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smiley/Smiley-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmileyTests/SmilieTests-Info.plist";
+				PRODUCT_NAME = SmilieTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D3D7148A18275C5600B12929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smiley.app/Smiley";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smiley/Smiley-Prefix.pch";
+				INFOPLIST_FILE = "SmileyTests/SmilieTests-Info.plist";
+				PRODUCT_NAME = SmilieTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D7145418275C5600B12929 /* Build configuration list for PBXProject "Smilie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D7148318275C5600B12929 /* Debug */,
+				D3D7148418275C5600B12929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D7148518275C5600B12929 /* Build configuration list for PBXNativeTarget "Smilie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D7148618275C5600B12929 /* Debug */,
+				D3D7148718275C5600B12929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D7148818275C5600B12929 /* Build configuration list for PBXNativeTarget "SmilieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D7148918275C5600B12929 /* Debug */,
+				D3D7148A18275C5600B12929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D7145118275C5600B12929 /* Project object */;
+}
